@@ -1,0 +1,107 @@
+/* Navigarion */
+
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul {
+    padding-bottom: 1rem;
+}
+
+#navbar ul li a {
+    padding: 0rem 1rem;
+}
+
+#navbar ul li {
+    font-size: 1rem;
+}
+
+
+/* Home */
+
+#home {
+    padding: 3px 50px;
+    height: 445px;
+}
+
+#home h1 {
+    font-size: 2rem;
+}
+
+#home::before {
+    height: 550px;
+}
+
+.btn {
+    padding: 6px 14px;
+    font-size: 1.2rem;
+}
+
+
+/* Services */
+
+#services {
+    flex-wrap: wrap;
+}
+
+#services .box {
+    width: 30%;
+    margin: 1.5rem;
+}
+
+#services .box img {
+    width: 100%;
+}
+
+@media (max-width:650px) {
+    #services .box {
+        width: 80%;
+    }
+}
+
+
+/* Trainers  */
+
+#trainer {
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:1030px) {
+    .trainer-item {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #trainer img {
+        width: 80%;
+    }
+}
+
+#contact-box form {
+    width: 80%;
+}
+
+#contact-box input,
+#contact-box textarea {
+    font-size: 1rem;
+}
+
+#contact-box form label {
+    font-size: 1rem;
+}
+
+
+/* Contact us  */
+
+
+/* utility */
+
+.h-secondary {
+    font-size: 1rem;
+    margin: .5rem;
+}
+
+.p-primary {
+    font-size: 1rem;
+}
